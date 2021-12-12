@@ -1,0 +1,26 @@
+<h3>Add Task</h3>
+<form (ngSubmit) = "onSubmit()">
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" id="name" [(ngModel)]="task.name" name="name">
+    </div>
+    <div class="form-group">
+        <label>Minutes</label>
+        <input type="number" class="form-control" id="minutes" [(ngModel)]="task.minutes" name="minutes">
+    </div>
+    <div class="form-group">
+        <label>Priority</label>
+        <input type="number" class="form-control" id="priority" [(ngModel)]="task.priority" name="priority">
+    </div>
+    <div class="form-group">
+        <label>Difficulty</label>
+        <input type="number" class="form-control" id="difficulty" [(ngModel)]="task.difficulty" name="difficulty">
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <input type="text" class="form-control" id="description" [(ngModel)]="task.description" name="description">
+    </div>
+
+    <button class="btn btn-success" type="submit">Add</button>
+
+</form>

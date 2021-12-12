@@ -1,0 +1,4 @@
+com\web\project\ProjectApplication.class
+com\web\project\model\Task.class
+com\web\project\controller\TaskController.class
+com\web\project\repository\TaskRepository.class
